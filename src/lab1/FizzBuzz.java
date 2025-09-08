@@ -11,7 +11,7 @@ class FizzBuzz {
     }
 
     private static void doFizzBuzz(int n) {
-        while (n > 0){
+        while (n > 1){
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = n % 3 == 0;
