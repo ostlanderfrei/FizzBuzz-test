@@ -7,6 +7,10 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
+        doFizzBuzz();
+    }
+
+    private static void doFizzBuzz() {
         for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
